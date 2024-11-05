@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- Text Welcome -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome to My Apps"
+        android:textColor="#00BFFF"
+        android:textSize="26sp" />
+
+    <!-- Image View for Icon -->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/home"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button Login -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00BFFF"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="34sp" />
+
+    <!-- Button Register -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#ffffff"
+        android:text="Register"
+        android:textColor="#00BFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:strokeColor="#00BFFF"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>
